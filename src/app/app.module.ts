@@ -38,7 +38,8 @@ import { RecipeStartComponent } from './recipes/recipe-start.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    routing
+    routing,
+    ReactiveFormsModule
   ],
   providers: [RecipeService, ShoppingListService],
   bootstrap: [AppComponent]
